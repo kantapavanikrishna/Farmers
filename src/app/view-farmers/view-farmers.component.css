@@ -1,0 +1,47 @@
+.addMore{
+    border: none;
+    width: 32px;
+    height: 32px;
+    background-color: #eee;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+  }
+  .addMore:hover{
+    border: 1px solid #888;
+    background-color: #ddd;
+  }
+
+  .outer{
+    height: 150vh;
+    /* background:linear-gradient(to top,#d8c9ff 50%, #b29aeb 90%) no-repeat; */
+  }
+
+  .text1{
+
+    font-size: 4.5em;
+
+    font-weight: 500;
+
+    background: linear-gradient(to top, transparent 0%, #0e2431 70%);
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    opacity: .1;
+
+    text-align: center;
+
+}
+
+.text2{
+
+    font-size: 2.5em;
+
+    font-weight: 500;
+
+    transform: translateY(-55px);
+
+    text-align: center;
+
+}

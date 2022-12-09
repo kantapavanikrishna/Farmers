@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    padding:  0;
+    background-size: 100%;
+    
+    background: #ffffff;
+}
+
+.p{
+    position: absolute;
+    top: 80px;
+    /* width: 100px; */
+    height:450px;
+    left: 60px;
+
+}
+.i{
+    position: absolute;
+    left: 1px;
+}
+
+nav{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative;
+    background-color: rgb(212, 238, 247);
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.text-box{
+    margin-top: 160px;
+    max-width: 600px;
+    position: absolute;
+  right: 170px;
+  width: 250px;
+  /* height: 120px; */
+
+}
+
+.text-box h1{
+    font-size: 50px;
+    margin-bottom :20px; 
+    color: #1e72a2;
+}
+
+.text-box a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #3f51b5;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+.user-box{
+    background: #ecedef;
+    position: absolute;
+    top: 0;
+    right: 12%;
+}
+
+.user-box img{
+    display:flex;
+    padding-top: 200px;
+    width: 410px;
+    margin-bottom: -250px;
+}
+/* img{
+    height: 40px;
+    position: absolute;
+    left: 10px;
+
+} */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(212, 238, 247);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* .background{
+    background-image: url(https://img.freepik.com/premium-photo/grocery-shopping-white-background-vegetables-fruits-juice-bottles-bread-paper-bags_439094-1.jpg?w=2000);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+} */
