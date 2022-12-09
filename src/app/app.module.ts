@@ -13,6 +13,7 @@ import { ListComponent } from './list/list.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 import { ViewFarmersComponent } from './view-farmers/view-farmers.component';
+import { ErrorComponent } from './error/error.component';
 
 
 
@@ -27,7 +28,8 @@ import { ViewFarmersComponent } from './view-farmers/view-farmers.component';
     UpdateComponent,
     ListComponent,
     ContactComponent,
-    ViewFarmersComponent
+    ViewFarmersComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
