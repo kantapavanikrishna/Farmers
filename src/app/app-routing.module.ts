@@ -13,7 +13,7 @@ import { ViewFarmersComponent } from './view-farmers/view-farmers.component';
 
 const routes: Routes = [
   {path:'',component:FirstComponent},
-  {path:'**',component:ErrorComponent},
+   
   {path:'first',component:FirstComponent},
   {path:'home',component:HomeComponent},
   {path:'login',component:LoginComponent},
@@ -21,7 +21,8 @@ const routes: Routes = [
   {path:'list',component:ListComponent},
   {path:'update/:id',component:UpdateComponent},
   {path:'contact',component:ContactComponent},
-  {path:'view-farmers',component:ViewFarmersComponent}
+  {path:'view-farmers',component:ViewFarmersComponent},
+  {path:'**',component:ErrorComponent}
  
 ];
 
