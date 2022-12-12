@@ -13,7 +13,6 @@ import { ViewFarmersComponent } from './view-farmers/view-farmers.component';
 
 const routes: Routes = [
   {path:'',component:FirstComponent},
-   
   {path:'first',component:FirstComponent},
   {path:'home',component:HomeComponent},
   {path:'login',component:LoginComponent},
