@@ -5,7 +5,11 @@
     right: 0;
     bottom: 0;
     left: 0;
-    color: whitesmoke;
+    color: white;
+}
+p{
+    z-index: 9999;
+    color: black;
 }
 
 @keyframes body {
