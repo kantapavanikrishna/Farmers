@@ -27,12 +27,12 @@ export class AddComponent implements OnInit {
   }
 
   onSubmit(){
-    this.router.navigate(['/view-farmers']);
+    this.router.navigate(['/login']);
     console.log(this.farmer);
     this.saveFarmer();
   }
   Submit(){
-    this.router.navigate(['/home']);
+    this.router.navigate(['/first']);
     console.log(this.farmer);
     
   }
