@@ -30,7 +30,7 @@ export class UpdateComponent implements OnInit {
     , error => console.log(error));
   }
   Submit(){
-    this.router.navigate(['/home']);
+    this.router.navigate(['/list']);
     console.log(this.farmer);
     
   }

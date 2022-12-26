@@ -10,7 +10,9 @@ export class FarmerService {
 
   private baseUrl='http://localhost:8080/farmers';
   private Url='http://localhost:8080/farmers/register'
-  
+  private uUrl='http://localhost:8080/farmers/update'
+  private dUrl='http://localhost:8080/farmers/delete'
+
   constructor(private httpClient: HttpClient) { }
 
   getFarmersList():Observable<Farmer[]>{
@@ -26,14 +28,14 @@ export class FarmerService {
   }
 
   updateFarmer(id: number, farmer: Farmer): Observable<Object>{
-    return this.httpClient.put(`${this.baseUrl}/${id}`, farmer);
+    return this.httpClient.put(`${this.uUrl}/${id}`, farmer);
   }
 
   deleteFarmer(id:number): Observable<Farmer>{
 
     //return this.http.delete<Employee>(`http://localhost:8080/employee/{eid}`);  
 
-    return this.httpClient.delete<Farmer>(`${this.baseUrl}/${id}`);
+    return this.httpClient.delete<Farmer>(`${this.dUrl}/${id}`);
 
   }
 
